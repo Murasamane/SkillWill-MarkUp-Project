@@ -108,7 +108,8 @@
   justify-items: center;
   align-items: center;
   padding: 12.8rem;
-  gap: 1.2rem;
+  gap: 7.2rem;
+  margin-bottom: 9.8rem;
   /* background-image: url("../img/Group.png");
   background-repeat: no-repeat;
   background-position: left,bottom;
@@ -162,4 +163,244 @@
   color: #fff;
   font-family: "Inter", sans-serif;
   font-size: 1.8rem;
+}
+
+.text-container__title--2 {
+  font-family: "Inter", sans-serif;
+  font-size: 7.2rem;
+  font-weight: 700;
+  color: #212529;
+}
+
+.text-container__title--2::after {
+  content: "";
+  position: absolute;
+  top: 15%;
+  left: 33%;
+  background-image: url("../img/Element.png");
+  background-repeat: no-repeat;
+  width: 298.36px;
+  height: 298.36px;
+}
+
+.text-container__title--3 {
+  font-family: "Inter", sans-serif;
+  font-size: 7.2rem;
+  font-weight: 700;
+  color: #212529;
+}
+
+.text-container__title--3::after {
+  content: "";
+  position: absolute;
+  top: 32%;
+  left: 25%;
+  background-image: url("../img/Element.png");
+  background-repeat: no-repeat;
+  width: 274px;
+  height: 274px;
+}
+
+
+
+
+.choose-your-plan__head{
+    text-align: center;
+    padding: 3.2rem;
+}
+.plans__title{
+    font-family: "Inter", sans-serif;
+    font-size: 7.2rem;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 2.4rem;
+}
+.plans__paragraph{
+    font-family: "Inter", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #212529;
+    line-height: 1.5;
+}
+
+
+/* Cards */
+.card--section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 2.4rem;
+    padding: 3.2rem;
+    margin-bottom: 9.8rem;
+}
+
+.card__card--body{
+    border: 1px solid #FFE492;
+    padding: 3.2rem;
+    border-radius: 1rem;
+}
+
+.card__head{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    margin-bottom: 3.2rem;
+}
+
+.card__title{
+    font-family: "Inter", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.card__price{
+    font-family: "Inter", sans-serif;
+    font-size: 3.6rem;
+    font-weight: 700; 
+}
+
+.card__sub--title{
+    font-family: "Inter", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.card__ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 3.2rem;
+}
+.card__list-item{
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.card-btn:link,.card-btn:visited{
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #212529;
+    border: 1px solid #FFE492;
+    padding: 1.6rem 4rem;
+    border-radius: .8rem;
+}
+
+
+
+
+
+
+
+
+.personal__card--body{
+    padding: 3.2rem;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+    border-radius: 1rem;
+    height: 65rem;
+}
+
+.personal__card--head{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    margin-bottom: 3.2rem;
+}
+
+.personal__card--title{
+    font-family: "Inter", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #043873;
+}
+
+.personal__card--price{
+    font-family: "Inter", sans-serif;
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: #043873;
+}
+
+.personal__card--sub--title{
+    font-family: "Inter", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #043873;
+}
+
+.personal__card--card__list{
+    margin-bottom: 7.2rem;
+}
+.personal__card--ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 3.2rem;
+}
+.personal__card--list-item{
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #043873;
+}
+
+.personal__card--list-icon{
+    color: #043873;
+}
+
+.personal__card--btn:link,.personal__card--btn:visited{
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #212529;
+    background-color: #4F9CF9;
+    padding: 1.6rem 4rem;
+    color: #fff;
+    border-radius: .8rem;
+}
+
+
+.try-taskey{
+    background-color: #043873;
+    background-image: url('../img/BACKGROUND.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: center;
+    padding: 6.4rem;
+}
+
+
+.taskey__title{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 7.2rem;
+    color: #fff;
+    margin-bottom: 3.2rem;
+}
+
+.taskey__paragraph{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 3.2rem;
+}
+
+.taskey-btn:link,.taskey-btn:visited{
+    display: inline-block;
+    font-family: "Inter", sans-serif;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4F9CF9;
+    padding: 2rem 4rem;
+    border-radius: .8rem;
 }
