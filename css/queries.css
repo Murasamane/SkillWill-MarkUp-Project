@@ -59,6 +59,15 @@
   .footer--cta {
     text-align: center;
   }
+  .data--title {
+    background-position: center top;
+  }
+  .user--title {
+    background-position: center bottom;
+  }
+  .sponsor-title,.taskey__title{
+    background-position: center;
+  }
 }
 
 @media (max-width: 1060px) {
