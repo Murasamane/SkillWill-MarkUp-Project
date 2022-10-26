@@ -52,6 +52,15 @@
   .hero-image {
     grid-row: 1;
   }
+  .middle--grid__text-container{
+    align-items: center;
+  }
+  .row-1{
+    grid-row: 1;
+  }
+  .r-5{
+    grid-row: 5;
+  }
   .hero-text {
     justify-content: center;
     align-items: center;
