@@ -1,6 +1,7 @@
 const navigation = document.querySelector(".header-section__navigation");
 const openIcon = document.querySelector(".btn--open");
 const closeIcon = document.querySelector(".btn--close");
+
 const BurgerMenu = document
   .querySelector(".burger-menu--btn")
   .addEventListener("click", () => {
@@ -27,3 +28,16 @@ const resetMenu = () => {
   }
 };
 window.addEventListener("resize", resetMenu);
+
+const item = document.querySelectorAll(".nav-link");
+document.addEventListener("click", (e) => {
+  let currentItem;
+  currentItem = e.target.closest(".nav-link");
+  item.forEach((items) => {
+    if (items === currentItem) {
+      items.classList.toggle("active");
+    } else {
+      items.classList.remove("active");
+    }
+  });
+});
