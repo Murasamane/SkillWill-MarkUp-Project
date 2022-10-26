@@ -72,6 +72,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  column-gap: 2.4rem;
 }
 
 .hero-text {
