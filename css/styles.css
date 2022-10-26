@@ -192,6 +192,10 @@
   font-weight: 700;
   color: #212529;
   margin-bottom: 2.4rem;
+  background-image: url("../img/Element.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
 }
 .plans__paragraph {
   font-family: "Inter", sans-serif;
@@ -354,6 +358,10 @@
   font-size: 7.2rem;
   color: #fff;
   margin-bottom: 3.2rem;
+  background-image: url("../img/bluestroke.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  
 }
 
 .taskey__paragraph {
@@ -392,6 +400,10 @@
   font-size: 7.2rem;
   color: #212529;
   margin-bottom: 2.4rem;
+  background-image: url("../img/Element.png");
+  background-repeat: no-repeat;
+  background-size: calc();
+  background-position: right bottom;
 }
 
 .data--paragraph {
@@ -423,6 +435,10 @@
   color: #212529;
   text-align: center;
   margin-bottom: 6.2rem;
+  background-image: url("../img/Element.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
 }
 
 .sponsors-logo {
@@ -503,6 +519,9 @@
   text-align: center;
   color: #212529;
   margin-bottom: 6.2rem;
+  background-image: url("../img/Element.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .card--qoutes {
@@ -726,4 +745,13 @@
   font-size: 1.6rem;
   font-family: "Inter", sans-serif;
   font-weight: 400;
+}
+
+
+/* Hovers */
+.footer--links__hover{
+  transition: all 0.3s;
+}
+.footer--links__hover:hover{
+  color: #FFE492;
 }
