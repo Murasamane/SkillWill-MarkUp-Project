@@ -228,7 +228,7 @@
               </li>
             </ul>
           </div>
-          <a href="#" class="card-btn">Get Started</a>
+          <a href="#" class="plan__card-btn">Get Started</a>
         </div>
 
         <div class="personal__card--body">
@@ -328,7 +328,7 @@
               </li>
             </ul>
           </div>
-          <a href="#" class="card-btn">Get Started</a>
+          <a href="#" class="plan__card-btn">Get Started</a>
         </div>
       </div>
     </section>
@@ -404,18 +404,19 @@
     <section class="user-feedback">
       <h3 class="user--title">See what our trusted users Say</h3>
 
-      <div class="user--feedback__grid">
-        <div class="feedback--card__body">
-          <div class="card__head">
-            <img
-              src="img/Avater 01.png"
-              class="card--image"
-              width="70"
-              height="70"
-              alt="profile image"
-            />
+      <!-- Container for the layout of the full carousel -->
+<div class="container">
+
+  <!-- Container that the cards slide across -->
+  <div class="carousel-container">
+
+      <!-- Replacable cards -->
+
+      <div class="card">
+          <div class="card-img">
+            <img src="img/Avater 01.png" alt="">
           </div>
-          <div class="text--body">
+          <div class="card-text">
             <blockquote class="card--qoutes">
               “If you haven’t tried whitepace yet, you need to give it a shot
               for your next event. It’s so easy and intuitive to get a new event
@@ -423,7 +424,6 @@
               amazing.”
             </blockquote>
           </div>
-
           <div class="author--and--stars">
             <div class="name--position">
               <p class="card--name">Jessie Owner</p>
@@ -433,80 +433,181 @@
               <img src="img/Btn-Star.png" alt="ratings" />
             </div>
           </div>
-        </div>
-
-        <div class="feedback--card__body card--active">
-          <div class="card__head">
-            <img
-              src="img/Avater 02.png"
-              class="card--image"
-              width="70"
-              height="70"
-              alt="profile image"
-            />
-          </div>
-          <div class="text--body">
-            <blockquote class="card--qoutes card--text--active">
-              “If you haven’t tried whitepace yet, you need to give it a shot
-              for your next event. It’s so easy and intuitive to get a new event
-              setup and if you need any help their customer service is seriously
-              amazing.”
-            </blockquote>
-          </div>
-
-          <div class="author--and--stars">
-            <div class="name--position">
-              <p class="card--name card--text--active">Jessie Owner</p>
-              <p class="card--position card--text--active">
-                Founder, XYZ Company
-              </p>
-            </div>
-            <div class="card--stars">
-              <img src="img/Btn-Star.png" alt="ratings" />
-            </div>
-          </div>
-        </div>
-
-        <div class="feedback--card__body card--active">
-          <div class="card__head">
-            <img
-              src="img/Avater 03.png"
-              class="card--image"
-              width="70"
-              height="70"
-              alt="profile image"
-            />
-          </div>
-          <div class="text--body">
-            <blockquote class="card--qoutes card--text--active">
-              “If you haven’t tried whitepace yet, you need to give it a shot
-              for your next event. It’s so easy and intuitive to get a new event
-              setup and if you need any help their customer service is seriously
-              amazing.”
-            </blockquote>
-          </div>
-
-          <div class="author--and--stars">
-            <div class="name--position">
-              <p class="card--name card--text--active">Jessie Owner</p>
-              <p class="card--position card--text--active">
-                Founder, XYZ Company
-              </p>
-            </div>
-            <div class="card--stars">
-              <img src="img/Btn-Star.png" alt="ratings" />
-            </div>
-          </div>
-        </div>
       </div>
 
+      <div class="card card--active">
+        <div class="card-img">
+          <img src="img/Avater 02.png" alt="">
+        </div>
+        <div class="card-text">
+          <blockquote class="card--qoutes card--text--active">
+            “If you haven’t tried whitepace yet, you need to give it a shot
+            for your next event. It’s so easy and intuitive to get a new event
+            setup and if you need any help their customer service is seriously
+            amazing.”
+          </blockquote>
+        </div>
+        <div class="author--and--stars">
+          <div class="name--position">
+            <p class="card--name card--text--active">Jessie Owner</p>
+            <p class="card--position card--text--active">Founder, XYZ Company</p>
+          </div>
+          <div class="card--stars">
+            <img src="img/Btn-Star.png" alt="ratings" />
+          </div>
+        </div>
+    </div>
+
+    <div class="card card--active">
+      <div class="card-img">
+        <img src="img/Avater 03.png" alt="">
+      </div>
+      <div class="card-text">
+        <blockquote class="card--qoutes card--text--active">
+          “If you haven’t tried whitepace yet, you need to give it a shot
+          for your next event. It’s so easy and intuitive to get a new event
+          setup and if you need any help their customer service is seriously
+          amazing.”
+        </blockquote>
+      </div>
+      <div class="author--and--stars">
+        <div class="name--position">
+          <p class="card--name card--text--active">Jessie Owner</p>
+          <p class="card--position card--text--active">Founder, XYZ Company</p>
+        </div>
+        <div class="card--stars">
+          <img src="img/Btn-Star.png" alt="ratings" />
+        </div>
+      </div>
+  </div>
+
+  <div class="card card--active">
+    <div class="card-img">
+      <img src="img/Avater 02.png" alt="">
+    </div>
+    <div class="card-text">
+      <blockquote class="card--qoutes card--text--active">
+        “If you haven’t tried whitepace yet, you need to give it a shot
+        for your next event. It’s so easy and intuitive to get a new event
+        setup and if you need any help their customer service is seriously
+        amazing.”
+      </blockquote>
+    </div>
+    <div class="author--and--stars">
+      <div class="name--position">
+        <p class="card--name card--text--active">Jessie Owner</p>
+        <p class="card--position card--text--active">Founder, XYZ Company</p>
+      </div>
+      <div class="card--stars">
+        <img src="img/Btn-Star.png" alt="ratings" />
+      </div>
+    </div>
+</div>
+
+<div class="card card--active">
+  <div class="card-img">
+    <img src="img/Avater 03.png" alt="">
+  </div>
+  <div class="card-text">
+    <blockquote class="card--qoutes card--text--active">
+      “If you haven’t tried whitepace yet, you need to give it a shot
+      for your next event. It’s so easy and intuitive to get a new event
+      setup and if you need any help their customer service is seriously
+      amazing.”
+    </blockquote>
+  </div>
+  <div class="author--and--stars">
+    <div class="name--position">
+      <p class="card--name card--text--active">Jessie Owner</p>
+      <p class="card--position card--text--active">Founder, XYZ Company</p>
+    </div>
+    <div class="card--stars">
+      <img src="img/Btn-Star.png" alt="ratings" />
+    </div>
+  </div>
+</div>
+
+
+<div class="card card--active">
+  <div class="card-img">
+    <img src="img/Avater 02.png" alt="">
+  </div>
+  <div class="card-text">
+    <blockquote class="card--qoutes card--text--active">
+      “If you haven’t tried whitepace yet, you need to give it a shot
+      for your next event. It’s so easy and intuitive to get a new event
+      setup and if you need any help their customer service is seriously
+      amazing.”
+    </blockquote>
+  </div>
+  <div class="author--and--stars">
+    <div class="name--position">
+      <p class="card--name card--text--active">Jessie Owner</p>
+      <p class="card--position card--text--active">Founder, XYZ Company</p>
+    </div>
+    <div class="card--stars">
+      <img src="img/Btn-Star.png" alt="ratings" />
+    </div>
+  </div>
+</div>
+
+<div class="card card--active">
+<div class="card-img">
+  <img src="img/Avater 03.png" alt="">
+</div>
+<div class="card-text">
+  <blockquote class="card--qoutes card--text--active">
+    “If you haven’t tried whitepace yet, you need to give it a shot
+    for your next event. It’s so easy and intuitive to get a new event
+    setup and if you need any help their customer service is seriously
+    amazing.”
+  </blockquote>
+</div>
+<div class="author--and--stars">
+  <div class="name--position">
+    <p class="card--name card--text--active">Jessie Owner</p>
+    <p class="card--position card--text--active">Founder, XYZ Company</p>
+  </div>
+  <div class="card--stars">
+    <img src="img/Btn-Star.png" alt="ratings" />
+  </div>
+</div>
+</div>
+
+<div class="card card--active">
+  <div class="card-img">
+    <img src="img/Avater 03.png" alt="">
+  </div>
+  <div class="card-text">
+    <blockquote class="card--qoutes card--text--active">
+      “If you haven’t tried whitepace yet, you need to give it a shot
+      for your next event. It’s so easy and intuitive to get a new event
+      setup and if you need any help their customer service is seriously
+      amazing.”
+    </blockquote>
+  </div>
+  <div class="author--and--stars">
+    <div class="name--position">
+      <p class="card--name card--text--active">Jessie Owner</p>
+      <p class="card--position card--text--active">Founder, XYZ Company</p>
+    </div>
+    <div class="card--stars">
+      <img src="img/Btn-Star.png" alt="ratings" />
+    </div>
+  </div>
+  </div>
+
+  </div>
+</div>
+
       <div class="slide--btns">
-        <button class="slide--btn previous">
-          <ion-icon name="chevron-back-outline" class="btn-slide"></ion-icon>
-        </button>
-        <button class="slide--btn next">
-          <ion-icon name="chevron-forward-outline" class="btn-slide"></ion-icon>
-        </button>
+  <!-- Buttons to adjust card position -->
+  <div class="prev-cont card-mover-btn">
+    <button class="prev btn btn-slide"><ion-icon name="chevron-back-outline"></ion-icon></button>
+</div>
+<div class="next-cont card-mover-btn">
+    <button class="next btn btn-slide"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+</div>
       </div>
     </section>
 
@@ -579,10 +680,10 @@
               ><ion-icon name="chevron-down-outline"></ion-icon
             ></span>
           </p>
-          <p class="additionals footer--links__hover">Terms & Services</p>
-          <p class="additionals footer--links__hover">Security</p>
-          <p class="additionals footer--links__hover">Status</p>
-          <p class="additionals footer--links__hover">©2021 Whitepace LLC.</p>
+          <p class="additionals">Terms & Services</p>
+          <p class="additionals">Security</p>
+          <p class="additionals">Status</p>
+          <p class="additionals">©2021 Whitepace LLC.</p>
         </div>
         <div class="socials">
           <figure>
