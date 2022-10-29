@@ -120,6 +120,10 @@
   padding: 12.8rem;
   gap: 7.2rem;
   margin-bottom: 9.8rem;
+  background-image: url('../img/BACKGROUND-waves.png');
+  background-repeat: no-repeat;
+  background-size: 35rem;
+  background-position: left 22rem;
 }
 .middle--grid__text-container {
   display: flex;
@@ -181,7 +185,12 @@
   background-repeat: no-repeat;
   background-position: bottom;
 }
-
+/* .product-managment{
+  background-image: url('../img/BACKGROUND.png');
+  background-repeat: no-repeat;
+  background-size: 350px;
+  background-position:bottom left;
+} */
 .choose-your-plan__head {
   text-align: center;
   padding: 3.2rem;
