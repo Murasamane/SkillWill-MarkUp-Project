@@ -73,6 +73,9 @@
   .taskey__title {
     background-position: center;
   }
+  .data--container__image{
+    grid-row: 1;
+  }
 }
 
 @media (max-width: 1060px) {
