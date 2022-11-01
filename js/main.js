@@ -99,10 +99,6 @@ const moveCardsRight = () => {
 };
 
 //Event listeners to slide the cards.
-prev.addEventListener("click", () => {
-  moveCardsRight();
-});
+prev.addEventListener("click",moveCardsRight);
 
-next.addEventListener("click", () => {
-  moveCardsLeft();
-});
+next.addEventListener("click",moveCardsLeft);
