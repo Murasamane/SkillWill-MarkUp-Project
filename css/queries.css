@@ -147,3 +147,18 @@
     margin-right: 9.5rem;
   }
 }
+
+
+/* Modal queries */
+@media(max-width:500px){
+  .logIn-Modal{
+    width: 100%;
+  }
+  .login-inputs{
+    padding: .5rem;
+  }
+  .close-modal{
+    right: 2.4rem;
+    top: 1.2rem;
+  }
+}
