@@ -110,13 +110,17 @@ const modal = document.querySelector('.logIn-Modal');
 const modalCloseBtn = document.querySelector('.close-modal');
 const overlay = document.querySelector('.overlay');
 const logIn = document.querySelector('.login');
+
+
 const closeModal = ()=>{
   modal.classList.add('hidden');
   overlay.classList.add('hidden');
+  document.body.classList.remove('overFlowHidden')
 }
 const openModal = () =>{
   modal.classList.remove('hidden');
   overlay.classList.remove('hidden');
+  document.body.classList.add('overFlowHidden')
 }
 logIn.addEventListener('click',openModal);
 modalCloseBtn.addEventListener('click',closeModal)
