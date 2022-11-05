@@ -30,7 +30,7 @@
   background: none;
   border: none;
   font-size: 1.6rem;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #4f9cf9;
 }
 
@@ -39,14 +39,6 @@
   gap: 1rem;
 }
 
-/* .cta-buttons:link,
-.cta-buttons:visited {
-  display: inline-block;
-  padding: 1.6rem 4rem;
-  text-decoration: none;
-  font-family: "DM Sans", sans-serif;
-  font-size: 1.6rem;
-} */
 .cta-buttons{
   display: inline-block;
   padding: 1.6rem 4rem;
